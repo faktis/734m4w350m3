@@ -1,13 +1,17 @@
+@charset "UTF-8";
 h1 {
   color: blue;
 }
 
-
 .CategoryGrid {
   display: -ms-grid;
   display: grid;
+  grid-gap: 5px;
       grid-template-areas: "SP NP IP DS";
-  grid-auto-columns: 20%, 20%, 20%, 20%;
+  grid-auto-columns: minmax(24%, auto);
+  grid-auto-rows: 220px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .SwedishPig {
@@ -16,16 +20,28 @@ h1 {
   grid-area: SP;
   font-family: monospace;
   font-size: auto;
-  border-radius: 7px;
-  border-color: white;
+  border-color: black;
   border-width: 2px;
   border-style: solid;
-  height: 500;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
+  background-image: url("image/svenskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
   background-color: #FD0054;
-  color: #2B2024;
+  color: white;
+  text-align: center;
+}
+
+.SwedishPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .NorwegianPig {
@@ -34,16 +50,28 @@ h1 {
   grid-area: NP;
   font-family: monospace;
   font-size: auto;
-  border-radius: 7px;
-  border-color: white;
+  border-color: black;
   border-width: 2px;
   border-style: solid;
-  height: 500;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
+  background-image: url("image/norskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
   background-color: #FD0054;
-  color: #2B2024;
+  color: white;
+  text-align: center;
+}
+
+.NorwegianPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .IcelandicPig {
@@ -52,16 +80,28 @@ h1 {
   grid-area: IP;
   font-family: monospace;
   font-size: auto;
-  border-radius: 7px;
-  border-color: white;
+  border-color: black;
   border-width: 2px;
   border-style: solid;
-  height: 500;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
+  background-image: url("image/isländskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
   background-color: #FD0054;
-  color: #2B2024;
+  color: white;
+  text-align: center;
+}
+
+.IcelandicPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .DanishSwine {
@@ -70,37 +110,27 @@ h1 {
   grid-area: DS;
   font-family: monospace;
   font-size: auto;
-  border-radius: 7px;
-  border-color: white;
+  border-color: black;
   border-width: 2px;
   border-style: solid;
-  height: 500;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
+  background-image: url("image/danskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
   background-color: #FD0054;
-  color: #2B2024;
+  color: white;
+  text-align: center;
+}
+
+.DanishSwine:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 /*# sourceMappingURL=main.css.map */
-=======
-/*# sourceMappingURL=main.css.map */
-
-body{
-  background-image: url("image/dancingpig.gif");
-  background-color: #fcced9;
-}
-
-.product {
-  width: 70%;
-  margin: 0 auto;
-  background-color: #fad9e1;
-  padding: 3%;
-}
-
-.buyButton {
-  float: right;
-  width: 15%;
-  background-image: url("image/dancingpig.gif");
-  padding: 8%;
-  margin: auto;
-}

@@ -18,38 +18,80 @@ h1{
      border-radius:         $rad;
      background-color:      $bg;
      color:                 $color;
+     text-align: center;
 }
 
-@mixin grid-area($name, $font-family, $font-size)
+
+
+@mixin grid-area($name, $font-family, $font-size, $grid-image)
 {
     grid-area:              $name;
     font-family:            $font-family;
     font-size:              $font-size;
-    border-color: white;
+    border-color: black;
     border-width: 2px;
     border-style: solid;
+    background-image: $grid-image;
+    background-size: 100%;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    
 }
+
+
 
 .CategoryGrid
 {
     display: grid;
+    grid-gap: 5px;
     grid-template-areas: "SP NP IP DS";
-    grid-auto-columns: 20%, 20%, 20%, 20%;
+    grid-auto-columns: minmax(24%, auto);
+    grid-auto-rows: 220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .SwedishPig {
-    @include grid-area(SP, monospace, auto);
-    @include shaping(500 , 7px , #FD0054 , #2B2024)
+    @include grid-area(SP, monospace, auto, url("image/svenskGris.jpg"));
+    @include shaping(99%, 99% , 7px , #FD0054, white);
+
+}
+.SwedishPig:hover
+{
+    
+        transition: transform 1s;
+        transform: scale(0.95);
+    
 }
 .NorwegianPig {
-    @include grid-area(NP , monospace, auto);
-    @include shaping(500 , 7px , #FD0054 , #2B2024)
+    @include grid-area(NP , monospace, auto, url("image/norskGris.jpg"));
+    @include shaping(99% , 99% , 7px , #FD0054 , white);
+}
+.NorwegianPig:hover
+{
+    
+        transition: transform 1s;
+        transform: scale(0.95);
+    
 }
 .IcelandicPig{
-    @include grid-area(IP, monospace, auto);
-    @include shaping(500, 7px , #FD0054 , #2B2024)
+    @include grid-area(IP, monospace, auto, url("image/isländskGris.jpg"));
+    @include shaping(99% , 99% ,  7px , #FD0054 , white);
+}
+.IcelandicPig:hover
+{
+    
+        transition: transform 1s;
+        transform: scale(0.95);
+    
 }
 .DanishSwine {
-    @include grid-area(DS, monospace, auto);
-    @include shaping(500, 7px , #FD0054 , #2B2024)
-}   
+    @include grid-area(DS, monospace, auto, url("image/danskGris.jpg"));
+    @include shaping(99% , 99% , 7px , #FD0054 , white);
+}
+.DanishSwine:hover
+{
+    
+        transition: transform 1s;
+        transform: scale(0.95);
+    
+}
