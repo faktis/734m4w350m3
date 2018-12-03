@@ -1,5 +1,37 @@
+$myBackground1: #fcced9;
+$myBackground2: #fad9e1;
 
 h1{
     color: blue;
 }
 
+h3{
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+h4{
+    font-family: arial;
+}
+
+body{
+    background-image: url("src/dancingpig.gif");
+    background-color: $myBackground1;
+  }
+  
+  .product {
+    width: 70%;
+    margin: 0 auto;
+    background-color: $myBackground2;
+    padding: 4%;
+  }
+  
+  .buyButton {
+    width: 10%;
+  }
+
+  .pris {
+      font-family: arial;
+      font-weight: bold;
+      font-size: 18px;
+  }
