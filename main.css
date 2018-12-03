@@ -2,3 +2,23 @@ h1 {
   color: blue;
 }
 /*# sourceMappingURL=main.css.map */
+
+body{
+  background-image: url("image/dancingpig.gif");
+  background-color: #fcced9;
+}
+
+.product {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fad9e1;
+  padding: 3%;
+}
+
+.buyButton {
+  float: right;
+  width: 15%;
+  background-image: url("image/dancingpig.gif");
+  padding: 8%;
+  margin: auto;
+}
