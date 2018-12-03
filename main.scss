@@ -1,3 +1,57 @@
 h1{
     color: blue;
 }
+
+
+
+
+
+
+
+
+
+@mixin shaping($height, $width, $rad, $bg, $color)
+{
+     height:                $height;
+     width:                 $width;
+     -webkit-border-radius: $rad;
+     -moz-border-radius:    $rad;
+     -ms-border-radius:     $rad;
+     border-radius:         $rad;
+     background-color:      $bg;
+     color:                 $color;
+}
+
+@mixin grid-area($name, $font-family, $font-size)
+{
+    grid-area:              $name;
+    font-family:            $font-family;
+    font-size:              $font-size;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.CategoryGrid
+{
+    display: grid;
+    grid-template-areas: "SP NP IP DS";
+    grid-auto-columns: 20%, 20%, 20%, 20%;
+}
+
+.SwedishPig {
+    @include grid-area(SP, monospace, auto);
+    @include shaping(500 , 7px , #FD0054 , #2B2024)
+}
+.NorwegianPig {
+    @include grid-area(NP , monospace, auto);
+    @include shaping(500 , 7px , #FD0054 , #2B2024)
+}
+.IcelandicPig{
+    @include grid-area(IP, monospace, auto);
+    @include shaping(500, 7px , #FD0054 , #2B2024)
+}
+.DanishSwine {
+    @include grid-area(DS, monospace, auto);
+    @include shaping(500, 7px , #FD0054 , #2B2024)
+}   

@@ -1,4 +1,83 @@
 h1 {
   color: blue;
 }
+
+.CategoryGrid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "SP NP IP DS";
+  grid-auto-columns: 20%, 20%, 20%, 20%;
+}
+
+.SwedishPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: SP;
+  font-family: monospace;
+  font-size: auto;
+  border-radius: 7px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  height: 500;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  background-color: #FD0054;
+  color: #2B2024;
+}
+
+.NorwegianPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: NP;
+  font-family: monospace;
+  font-size: auto;
+  border-radius: 7px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  height: 500;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  background-color: #FD0054;
+  color: #2B2024;
+}
+
+.IcelandicPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: IP;
+  font-family: monospace;
+  font-size: auto;
+  border-radius: 7px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  height: 500;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  background-color: #FD0054;
+  color: #2B2024;
+}
+
+.DanishSwine {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: DS;
+  font-family: monospace;
+  font-size: auto;
+  border-radius: 7px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  height: 500;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  background-color: #FD0054;
+  color: #2B2024;
+}
 /*# sourceMappingURL=main.css.map */
