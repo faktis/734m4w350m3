@@ -62,11 +62,17 @@ iframe {
   text-align: center;
 }
 
+.backButton {
+  float: right;
+}
+
 .product {
   width: 70%;
   margin: 0 auto;
   background-color: #fd0054;
   padding: 5%;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .buyButton {

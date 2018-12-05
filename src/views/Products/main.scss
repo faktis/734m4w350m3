@@ -53,11 +53,18 @@ iframe
     @include shaping(99%, 99% , 7px , $PigPink, white);
 }
 
+.backButton
+{
+    float:right;
+}
+
 .product {
     width: 70%;
     margin: 0 auto;
     background-color: $Red;
     padding: 5%;
+    border-width: 2px;
+    border-style: solid;
 }
   
 .buyButton {
