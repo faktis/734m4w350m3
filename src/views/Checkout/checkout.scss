@@ -1,0 +1,19 @@
+@import "../../../css/vars.scss";
+
+.cart {
+    border: 1px solid $DarkShade;
+    width: 30%;
+    padding: 1%;
+}
+
+.subtotal {
+    border: 1px solid $DarkShade;
+    width: 30%;
+    padding: 1%;
+    font-weight: bolder;
+}
+
+.pris {
+    float: right;
+    width: 15%;
+}

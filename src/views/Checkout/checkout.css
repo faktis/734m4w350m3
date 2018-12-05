@@ -1,0 +1,18 @@
+.cart {
+  border: 1px solid #2b2024;
+  width: 30%;
+  padding: 1%;
+}
+
+.subtotal {
+  border: 1px solid #2b2024;
+  width: 30%;
+  padding: 1%;
+  font-weight: bolder;
+}
+
+.pris {
+  float: right;
+  width: 15%;
+}
+/*# sourceMappingURL=checkout.css.map */
