@@ -1,85 +1,4 @@
-$myBackground1: #fcced9;
-$myBackground2: #fad9e1;
-$myColor: #a80038;
-$myColor2: #2b2024;
-$myColor4: #fd0054;
-$myColor3: $myBackground1;
-
-$SwePig1: "SwePigDetails.html";
-
-.logo
-{
-    color: $myColor4;
-    background-color: $myColor2;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    padding: 5%;
-}
-
-h3
-{
-    font-family: Arial;
-    font-weight: bolder;
-}
-
-h4{
-    font-family: arial;
-}
-
-body
-{
-    background-image: url("src/dancingpig.gif");
-    background-color: $myBackground1;
-}
-  
-.product {
-    width: 70%;
-    margin: 0 auto;
-    background-color: $myBackground2;
-    padding: 5%;
-}
-  
-.buyButton {
-    width: 10%;
-}
-
-.pris {
-      font-family: arial;
-      font-weight: bold;
-      font-size: 18px;
-}
-
-ul {
-      list-style-type: none; 
-      background-color: $myColor4; 
-      margin: 0 auto;
-      padding: 0%;
-      overflow: hidden;   
-      width: 80%; 
-}
-
-li {
-      float: left;   
-}
-
-li a{
-      display: block;
-      text-align: center;
-      padding: 16px;
-      text-decoration: none;
-      color: $myColor2;
-      font-weight: bold;
-}
-
-li a:hover {
-      background-color: $myColor;
-}
-
-
-
-
-
+@import "../../../css/vars";
 
 @mixin shaping($height, $width, $rad, $bg, $color)
 {
@@ -87,14 +6,11 @@ li a:hover {
      width:                 $width;
      -webkit-border-radius: $rad;
      -moz-border-radius:    $rad;
-     -ms-border-radius:     $rad;
      border-radius:         $rad;
      background-color:      $bg;
      color:                 $color;
      text-align: center;
 }
-
-
 
 @mixin grid-area($name, $font-family, $font-size, $grid-image)
 {
@@ -107,10 +23,7 @@ li a:hover {
     background-image: $grid-image;
     background-size: 100%;
     box-shadow: 5px 5px 5px #aaaaaa;
-    
 }
-
-
 
 .CategoryGrid
 {
@@ -123,14 +36,9 @@ li a:hover {
     margin-right: auto;
 }
 
-iframe
-{
-    @include shaping(100%, 100% , 7px , $myBackground1 , $myColor3 );
-}
-
 .SwedishPig {
-    @include grid-area(SP, monospace, auto, url("src/svenskGris.jpg"));
-    @include shaping(99%, 99% , 7px , #FD0054, white);
+    @include grid-area(SP, monospace, auto, url("../../img/svenskGris.jpg"));
+    @include shaping(99%, 99% , 7px , $Red, white);
     &:hover
     {
             transition: transform 1s;
@@ -139,8 +47,8 @@ iframe
 }
 
 .NorwegianPig {
-    @include grid-area(NP , monospace, auto, url("src/norskGris.jpg"));
-    @include shaping(99% , 99% , 7px , #FD0054 , white);
+    @include grid-area(NP , monospace, auto, url("../../img/norskGris.jpg"));
+    @include shaping(99% , 99% , 7px , $Red , white);
     &:hover
     {
             transition: transform 1s;
@@ -149,8 +57,8 @@ iframe
 }
 
 .IcelandicPig{
-    @include grid-area(IP, monospace, auto, url("src/isländskGris.jpg"));
-    @include shaping(99% , 99% ,  7px , #FD0054 , white);
+    @include grid-area(IP, monospace, auto, url("../../img/isländskGris.jpg"));
+    @include shaping(99% , 99% ,  7px , $Red , white);
     &:hover
     {
             transition: transform 1s;
@@ -159,17 +67,12 @@ iframe
 }
 
 .DanishSwine {
-    @include grid-area(DS, monospace, auto, url("src/danskGris.jpg"));
-    @include shaping(99% , 99% , 7px , #FD0054 , white);
+    @include grid-area(DS, monospace, auto, url("../../img/danskGris.jpg"));
+    @include shaping(99% , 99% , 7px , $Red , white);
     &:hover
     {
             transition: transform 1s;
             transform: scale(0.95);
     }
-}
-
-
-.clear {
-      clear: both;
 }
 
