@@ -1,8 +1,18 @@
 $myBackground1: #fcced9;
 $myBackground2: #fad9e1;
+$myColor: #a80038;
+$myColor2: #2b2024;
+$myColor4: #fd0054;
+$myColor3: #fcced9;
 
-h1{
-    color: blue;
+
+.logo{
+    color: $myColor4;
+    background-color: $myColor2;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5%;
 }
 
 h3{
@@ -17,21 +27,51 @@ h4{
 body{
     background-image: url("src/dancingpig.gif");
     background-color: $myBackground1;
-  }
+}
   
-  .product {
+.product {
     width: 70%;
     margin: 0 auto;
     background-color: $myBackground2;
-    padding: 4%;
-  }
+    padding: 5%;
+}
   
-  .buyButton {
+.buyButton {
     width: 10%;
-  }
+}
 
-  .pris {
+.pris {
       font-family: arial;
       font-weight: bold;
       font-size: 18px;
-  }
+}
+
+ul {
+      list-style-type: none; 
+      background-color: $myColor4; 
+      margin: 0 auto;
+      padding: 0%;
+      overflow: hidden;   
+      width: 80%; 
+}
+
+li {
+      float: left;   
+}
+
+li a{
+      display: block;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+      color: $myColor2;
+      font-weight: bold;
+}
+
+li a:hover {
+      background-color: $myColor;
+}
+
+.clear {
+      clear: both;
+}

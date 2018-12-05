@@ -1,5 +1,10 @@
-h1 {
-  color: blue;
+.logo {
+  color: #fd0054;
+  background-color: #2b2024;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5%;
 }
 
 h3 {
@@ -20,7 +25,7 @@ body {
   width: 70%;
   margin: 0 auto;
   background-color: #fad9e1;
-  padding: 4%;
+  padding: 5%;
 }
 
 .buyButton {
@@ -31,5 +36,35 @@ body {
   font-family: arial;
   font-weight: bold;
   font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #fd0054;
+  margin: 0 auto;
+  padding: 0%;
+  overflow: hidden;
+  width: 80%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: #2b2024;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #a80038;
+}
+
+.clear {
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */
