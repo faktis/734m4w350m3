@@ -1,0 +1,29 @@
+@import "vars";
+
+@import "../../../css/vars";
+
+iframe
+{
+    height:100%;
+    width: 100%;
+}
+
+
+
+.product {
+    width: 70%;
+    margin: 0 auto;
+    background-color: $red;
+    padding: 5%;
+}
+  
+.buyButton {
+    width: 10%;
+}
+
+.pris {
+      font-family: arial;
+      font-weight: bold;
+      font-size: 18px;
+}
+

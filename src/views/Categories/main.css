@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.CategoryGrid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+      grid-template-areas: "SP NP IP DS";
+  grid-auto-columns: minmax(25%, auto);
+  grid-auto-rows: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SwedishPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: SP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/svenskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+
+.SwedishPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.NorwegianPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: NP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/norskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+
+.NorwegianPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.IcelandicPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: IP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/isländskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+
+.IcelandicPig:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.DanishSwine {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: DS;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/danskGris.jpg");
+  background-size: 100%;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+
+.DanishSwine:hover {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=main.css.map */
