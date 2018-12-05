@@ -34,7 +34,8 @@ li{
   .item1{
       grid-area: PL ;
       
-    border: 1px solid $Red;
+    border: 2px solid $Red;
+    border-radius: 7px;
     background-color: $PigPink;
 }
 
@@ -47,9 +48,9 @@ li{
 .side{
 grid-area:   Info;
 max-width: 50%;
-
-border: 1px solid #A80038;
-background-color: #FCCED9;
+border-radius: 7px;
+border: 2px solid $Red;
+background-color: White;
 }
 
 .item4:hover{

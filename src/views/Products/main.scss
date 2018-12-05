@@ -12,6 +12,7 @@
      background-color:      $bg;
      color:                 $color;
      text-align: center;
+     box-shadow: 3px 3px #888888;
 }
 
 iframe
@@ -26,6 +27,7 @@ iframe
 {
     display: grid;
     grid-gap: 5px;
+
     grid-template-areas:    "SP NP" 
                             "IP DS";
     grid-auto-columns: minmax(50%, auto);
@@ -38,19 +40,23 @@ iframe
 .SwedishPig {
     grid-area: SP;
     @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
   
 }
 .DanishSwine {
     grid-area: DS;
     @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
 }
 .NorwegianPig {
     grid-area: NP;
     @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
 }
 .IcelandicPig {
     grid-area: IP;
     @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
 }
 
 .backButton
