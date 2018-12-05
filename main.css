@@ -8,7 +8,7 @@ h1 {
   display: grid;
   grid-gap: 5px;
       grid-template-areas: "SP NP IP DS";
-  grid-auto-columns: minmax(24%, auto);
+  grid-auto-columns: minmax(20%, auto);
   grid-auto-rows: 220px;
   margin-left: auto;
   margin-right: auto;
