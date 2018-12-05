@@ -9,7 +9,6 @@ ul{
 
 li:hover{
 transform: scale(1.1);
-color: white;
 }
 
 li{
@@ -28,6 +27,8 @@ li{
     grid-template-rows: 51%, 51%;
     grid-gap: 10px;
     text-align: center;
+    
+    
 
   }
   
@@ -37,13 +38,10 @@ li{
     border: 2px solid $Red;
     border-radius: 7px;
     background-color: $PigPink;
+    
 }
 
-.item2{
-    width: 40%;
-    height: 40%;
-    font-size: 10px;
-}
+
 
 .side{
 grid-area:   Info;
@@ -51,6 +49,8 @@ max-width: 50%;
 border-radius: 7px;
 border: 2px solid $Red;
 background-color: White;
+margin-left:auto;
+    margin-right:auto;
 }
 
 .item4:hover{
@@ -78,4 +78,9 @@ background-color: White;
     list-style-type: none;
 }
 
+
+.buy-btn
+{
+
+}
 

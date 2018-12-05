@@ -12,7 +12,7 @@
      background-color:      $bg;
      color:                 $color;
      text-align: center;
-     box-shadow: 3px 3px #888888;
+     box-shadow: 3px 2px 3px #888888;
 }
 
 iframe
@@ -73,8 +73,9 @@ iframe
     border-style: solid;
 }
   
-.buyButton {
-    width: 10%;
+.buyButton 
+{
+    width: 100%;
 }
 
 .pris {
