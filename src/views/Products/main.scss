@@ -18,6 +18,8 @@ iframe
 {
     height: 100%;
     width: 100%;
+    
+    
 }
 
 .GridArea
@@ -36,6 +38,7 @@ iframe
 .SwedishPig {
     grid-area: SP;
     @include shaping(99%, 99% , 7px , $PigPink, white);
+  
 }
 .DanishSwine {
     grid-area: DS;
