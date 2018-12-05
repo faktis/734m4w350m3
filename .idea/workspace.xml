@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfaca2f7-9901-4d38-ae46-d4422b909195" name="Default Changelist" comment="Integrated Categories. &#10;Updated Links.&#10;Cleaned up scss for the categories page.">
-      <change afterPath="$PROJECT_DIR$/src/views/Categories/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Categories/main.css.map" afterDir="false" />
+    <list default="true" id="cfaca2f7-9901-4d38-ae46-d4422b909195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Categories/Categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Categories/Categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Categories/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Categories/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/my-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/my-page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,20 +35,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/Categories/Categories.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                <state relative-caret-position="690">
+                  <caret line="48" column="10" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/Categories/main.scss">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/views/MyPage/myPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+                <state relative-caret-position="454">
+                  <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -68,6 +62,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="69">
                   <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/Categories/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -95,8 +98,9 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/src/views/my-page.html" />
         <option value="$PROJECT_DIR$/src/views/Categories/Categories.html" />
-        <option value="$PROJECT_DIR$/src/views/Categories/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/views/Categories/main.scss" />
+        <option value="$PROJECT_DIR$/src/views/MyPage/myPage.html" />
       </list>
     </option>
   </component>
@@ -137,6 +141,12 @@
               <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
               <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -145,6 +155,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="Categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,24 +207,32 @@
       <option name="presentableId" value="Default" />
       <updated>1543998120986</updated>
       <workItem from="1543998122606" duration="3338000" />
-      <workItem from="1544001805512" duration="3573000" />
+      <workItem from="1544001805512" duration="4533000" />
     </task>
+    <task id="LOCAL-00001" summary="Integrated Categories. &#10;Updated Links.&#10;Cleaned up scss for the categories page.">
+      <created>1544005387521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544005387522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6911000" />
+    <option name="totallyTimeSpent" value="7871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1264489" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1264489" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49893162" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50106835" side_tool="true" weight="0.32995495" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32998884" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -255,13 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Categories/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -276,10 +294,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/svenskGris.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Categories/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Categories/Categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="690">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MyPage/myPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
