@@ -15,4 +15,9 @@
   float: right;
   width: 15%;
 }
+
+.shippingAdress {
+  float: right;
+  border: 1px solid #2b2024;
+}
 /*# sourceMappingURL=checkout.css.map */
