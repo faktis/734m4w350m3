@@ -3,16 +3,12 @@ ul {
 }
 
 li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   color: white;
 }
 
 li {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
   font-weight: bold;
   max-width: 150px;
   BORDER: 1px solid #A80038;
@@ -20,19 +16,15 @@ li {
 
 .container {
   font-size: 40px;
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: "PL  Info";
+  grid-template-areas: "PL  Info";
   grid-auto-columns: minmax(45%, auto);
-  -ms-grid-rows: 51%, 51%;
-      grid-template-rows: 51%, 51%;
+  grid-template-rows: 51%, 51%;
   grid-gap: 10px;
   text-align: center;
 }
 
 .item1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: PL;
   border: 1px solid #A80038;
   background-color: #FCCED9;
@@ -45,8 +37,6 @@ li {
 }
 
 .side {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: Info;
   max-width: 50%;
   border: 1px solid #A80038;
@@ -76,4 +66,5 @@ li {
 #ProductsList {
   list-style-type: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=Product.css.map */
