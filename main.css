@@ -1,79 +1,70 @@
-ul {
-  list-style-type: none;
+.logo {
+  color: #fd0054;
+  background-color: #2b2024;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5%;
 }
 
-li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: white;
+h3 {
+  font-family: Arial;
+  font-weight: bolder;
+}
+
+h4 {
+  font-family: arial;
+}
+
+body {
+  background-image: url("src/dancingpig.gif");
+  background-color: #fcced9;
+}
+
+.product {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fad9e1;
+  padding: 5%;
+}
+
+.buyButton {
+  width: 10%;
+}
+
+.pris {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #fd0054;
+  margin: 0 auto;
+  padding: 0%;
+  overflow: hidden;
+  width: 80%;
 }
 
 li {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: #2b2024;
   font-weight: bold;
-  max-width: 150px;
-  BORDER: 1px solid #A80038;
 }
 
-.container {
-  font-size: 40px;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "PL  Info";
-  grid-auto-columns: minmax(45%, auto);
-  -ms-grid-rows: 51%, 51%;
-      grid-template-rows: 51%, 51%;
-  grid-gap: 10px;
-  text-align: center;
+li a:hover {
+  background-color: #a80038;
 }
 
-.item1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: PL;
-  border: 1px solid #A80038;
-  background-color: #FCCED9;
-}
-
-.item2 {
-  width: 40%;
-  height: 40%;
-  font-size: 10px;
-}
-
-.side {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: Info;
-  max-width: 50%;
-  border: 1px solid #A80038;
-  background-color: #FCCED9;
-}
-
-#ProductsH1 {
-  text-align: center;
-  font-size: 50%;
-  border-bottom: 1px dotted black;
-}
-
-#producth2 {
-  text-align: center;
-  font-size: 50%;
-  border-bottom: 1px dotted black;
-}
-
-.side {
-  float: right;
-}
-
-#sidetext {
-  font-size: 40%;
-}
-
-#ProductsList {
-  list-style-type: none;
+.clear {
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */
