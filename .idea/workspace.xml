@@ -4,19 +4,8 @@
     <list default="true" id="cfaca2f7-9901-4d38-ae46-d4422b909195" name="Default Changelist" comment="Integrated Categories. &#10;Updated Links.&#10;Cleaned up scss for the categories page.">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Categories/Categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Categories/Categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MyPage/myPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MyPage/myPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Products/AllProductPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/AllProductPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/DanSwineDetails2Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/DanSwineDetails2Full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/DanSwineDetailsFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/DanSwineDetailsFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/DanSwineFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/DanSwineFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/IcePigDetails2Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/IcePigDetails2Full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/IcePigDetailsFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/IcePigDetailsFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/IcePigFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/IcePigFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/NorPigDetails2Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/NorPigDetails2Full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/NorPigDetailsFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/NorPigDetailsFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/NorPigFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/NorPigFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/SwePigDetails2Full.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/SwePigDetails2Full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/SwePigDetailsFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/SwePigDetailsFull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Products/SwePigFull.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Products/SwePigFull.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,98 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/IcePigDetails2Full.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/IcePigDetailsFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/IcePigFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/NorPigDetails2Full.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/NorPigDetailsFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/NorPigFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/SwePigDetails2Full.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/SwePigDetailsFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/Products/SwePigFull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,10 +38,7 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/src/views/my-page.html" />
         <option value="$PROJECT_DIR$/src/views/Categories/main.scss" />
-        <option value="$PROJECT_DIR$/src/views/MyPage/myPage.html" />
         <option value="$PROJECT_DIR$/src/views/MyPage/myPage.scss" />
-        <option value="$PROJECT_DIR$/src/views/Categories/Categories.html" />
-        <option value="$PROJECT_DIR$/src/views/Products/AllProductPage.html" />
         <option value="$PROJECT_DIR$/src/views/Products/DanSwineDetails2Full.html" />
         <option value="$PROJECT_DIR$/src/views/Products/DanSwineDetailsFull.html" />
         <option value="$PROJECT_DIR$/src/views/Products/DanSwineFull.html" />
@@ -156,7 +51,10 @@
         <option value="$PROJECT_DIR$/src/views/Products/SwePigDetails2Full.html" />
         <option value="$PROJECT_DIR$/src/views/Products/SwePigDetailsFull.html" />
         <option value="$PROJECT_DIR$/src/views/Products/SwePigFull.html" />
+        <option value="$PROJECT_DIR$/src/views/MyPage/myPage.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/views/Categories/Categories.html" />
+        <option value="$PROJECT_DIR$/src/views/Products/AllProductPage.html" />
       </list>
     </option>
   </component>
@@ -198,28 +96,6 @@
               <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="734m4w350m3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="734m4w350m3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="MyPage" type="462c0819:PsiDirectoryNode" />
-              <item name="myPage.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +142,7 @@
       <updated>1543998120986</updated>
       <workItem from="1543998122606" duration="3338000" />
       <workItem from="1544001805512" duration="14331000" />
-      <workItem from="1544092900158" duration="360000" />
+      <workItem from="1544092900158" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="Integrated Categories. &#10;Updated Links.&#10;Cleaned up scss for the categories page.">
       <created>1544005387521</created>
@@ -279,21 +155,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18029000" />
+    <option name="totallyTimeSpent" value="18391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1406744" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1406744" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49893162" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50106835" side_tool="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32998884" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info active="true" anchor="bottom" id="Find" order="5" visible="true" weight="0.68896323" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.68896323" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3322072" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -349,13 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/MyPage/myPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="119" column="30" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -367,20 +235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
           <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Products/AllProductPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Categories/Categories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -421,7 +275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Products/IcePigFull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="494">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
         </state>
       </provider>
@@ -468,10 +322,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Categories/Categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MyPage/myPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Products/AllProductPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Checkout/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="552">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
         </state>
       </provider>
     </entry>
