@@ -1,0 +1,74 @@
+.myPage-mainSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-evenly;
+}
+.myPage-mainSection:before, .myPage-mainSection:after {
+  content: "";
+}
+
+.mp-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mp-container {
+  padding: 5px;
+  margin: 5px;
+}
+
+.mp-main-personInfo {
+  box-sizing: content-box;
+  width: 200px;
+}
+.mp-main-personInfo h3 {
+  color: white;
+  background: #a80038;
+  margin: 0;
+  padding: 5px;
+}
+
+.border {
+  border: 2px solid #a80038;
+}
+
+.mp-main-container {
+  padding: 5px;
+  margin: 5px;
+}
+
+.mp-form {
+  padding: 5px;
+}
+.mp-form label {
+  display: block;
+}
+
+.mp-table {
+  color: #fff;
+  background: #a80038;
+  text-align: center;
+}
+.mp-table tr td {
+  width: 140px;
+}
+.mp-table th {
+  color: #fff;
+  background: #a80038;
+}
+.mp-table tr:nth-child(even) {
+  color: #000;
+  background-color: #fff;
+}
+.mp-table tr:nth-child(odd) {
+  color: #2b2024;
+  background-color: #fcced9;
+}
+
+.container-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=myPage.css.map */

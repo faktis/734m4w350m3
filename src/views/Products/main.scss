@@ -1,24 +1,81 @@
-@import "vars";
 
 @import "../../../css/vars";
 
+
+@mixin shaping($height, $width, $rad, $bg, $color)
+{
+     height:                $height;
+     width:                 $width;
+     -webkit-border-radius: $rad;
+     -moz-border-radius:    $rad;
+     border-radius:         $rad;
+     background-color:      $bg;
+     color:                 $color;
+     text-align: center;
+     box-shadow: 3px 2px 3px #888888;
+}
+
 iframe
 {
-    height:100%;
+    height: 100%;
     width: 100%;
+    
+    
+}
+
+.GridArea
+{
+    display: grid;
+    grid-gap: 5px;
+
+    grid-template-areas:    "SP NP" 
+                            "IP DS";
+    grid-auto-columns: minmax(50%, auto);
+    grid-auto-rows: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+.SwedishPig {
+    grid-area: SP;
+    @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
+  
+}
+.DanishSwine {
+    grid-area: DS;
+    @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
+}
+.NorwegianPig {
+    grid-area: NP;
+    @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
+}
+.IcelandicPig {
+    grid-area: IP;
+    @include shaping(99%, 99% , 7px , $PigPink, white);
+    border: solid 2px black;
+}
+
+.backButton
+{
+    float:right;
+}
 
 .product {
     width: 70%;
     margin: 0 auto;
-    background-color: $red;
+    background-color: $Red;
     padding: 5%;
+    border-width: 2px;
+    border-style: solid;
 }
   
-.buyButton {
-    width: 10%;
+.buyButton 
+{
+    width: 100%;
 }
 
 .pris {
