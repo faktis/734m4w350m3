@@ -7,7 +7,8 @@ iframe {
   display: -ms-grid;
   display: grid;
   grid-gap: 5px;
-      grid-template-areas: "SP NP"  "IP DS";
+      grid-template-areas: "SP NP" 
+ "IP DS";
   grid-auto-columns: minmax(50%, auto);
   grid-auto-rows: 350px;
   margin-left: auto;
@@ -24,6 +25,9 @@ iframe {
   background-color: #fcced9;
   color: white;
   text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
 }
 
 .DanishSwine {
@@ -36,6 +40,9 @@ iframe {
   background-color: #fcced9;
   color: white;
   text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
 }
 
 .NorwegianPig {
@@ -48,6 +55,9 @@ iframe {
   background-color: #fcced9;
   color: white;
   text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
 }
 
 .IcelandicPig {
@@ -60,6 +70,13 @@ iframe {
   background-color: #fcced9;
   color: white;
   text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
+}
+
+.backButton {
+  float: right;
 }
 
 .product {
@@ -67,10 +84,12 @@ iframe {
   margin: 0 auto;
   background-color: #fd0054;
   padding: 5%;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .buyButton {
-  width: 10%;
+  width: 100%;
 }
 
 .pris {
