@@ -70,9 +70,31 @@ h1 {
 
 }
 
-.main-Section {
+.in-section {
     width: 90%;
     margin: 20px auto;
+    background-color: beige;
+    border-bottom: 2px solid rgb(211, 211, 211) ;
+    border-right: 2px solid rgb(202, 202, 202);
+}
+
+
+
+.in-section h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #333;
+}
+
+.in-section p{
+    padding-left: 10px;
+    color: #333;
+}
+
+.in-section img{
+    width: 660px;
+    height: 350px;
+    padding: 20px;
 }
 
 .container-footer {
