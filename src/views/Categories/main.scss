@@ -1,0 +1,77 @@
+@import "../../../css/vars";
+
+@mixin shaping($height, $width, $rad, $bg, $color)
+{
+     height:                $height;
+     width:                 $width;
+     -webkit-border-radius: $rad;
+     -moz-border-radius:    $rad;
+     border-radius:         $rad;
+     background-color:      $bg;
+     color:                 $color;
+     text-align: center;
+}
+
+@mixin grid-area($name, $font-family, $font-size, $grid-image)
+{
+    grid-area:              $name;
+    font-family:            $font-family;
+    font-size:              $font-size;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-image: $grid-image;
+    background-size: 100%;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.CategoryGrid
+{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "SP NP IP DS";
+    grid-auto-columns: minmax(25%, auto);
+    grid-auto-rows: 220px;
+    margin: 20px auto;
+}
+
+.SwedishPig {
+    @include grid-area(SP, monospace, auto, url("../../img/svenskGris.jpg"));
+    @include shaping(99%, 99% , 7px , $Red, white);
+    &:hover
+    {
+            transition: transform 1s;
+            transform: scale(0.95);
+    }
+}
+
+.NorwegianPig {
+    @include grid-area(NP , monospace, auto, url("../../img/norskGris.jpg"));
+    @include shaping(99% , 99% , 7px , $Red , white);
+    &:hover
+    {
+            transition: transform 1s;
+            transform: scale(0.95);
+    }
+}
+
+.IcelandicPig{
+    @include grid-area(IP, monospace, auto, url("../../img/isländskGris.jpg"));
+    @include shaping(99% , 99% ,  7px , $Red , white);
+    &:hover
+    {
+            transition: transform 1s;
+            transform: scale(0.95);
+    }
+}
+
+.DanishSwine {
+    @include grid-area(DS, monospace, auto, url("../../img/danskGris.jpg"));
+    @include shaping(99% , 99% , 7px , $Red , white);
+    &:hover
+    {
+            transition: transform 1s;
+            transform: scale(0.95);
+    }
+}
+

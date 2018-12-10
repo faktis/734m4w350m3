@@ -1,0 +1,107 @@
+@charset "UTF-8";
+.CategoryGrid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: "SP NP IP DS";
+  grid-auto-columns: minmax(25%, auto);
+  grid-auto-rows: 220px;
+  margin: 20px auto;
+}
+
+.SwedishPig {
+  grid-area: SP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/svenskGris.jpg");
+  background-size: 100%;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+.SwedishPig:hover {
+  transition: transform 1s;
+  transform: scale(0.95);
+}
+
+.NorwegianPig {
+  grid-area: NP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/norskGris.jpg");
+  background-size: 100%;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+.NorwegianPig:hover {
+  transition: transform 1s;
+  transform: scale(0.95);
+}
+
+.IcelandicPig {
+  grid-area: IP;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/isländskGris.jpg");
+  background-size: 100%;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+.IcelandicPig:hover {
+  transition: transform 1s;
+  transform: scale(0.95);
+}
+
+.DanishSwine {
+  grid-area: DS;
+  font-family: monospace;
+  font-size: auto;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: url("../../img/danskGris.jpg");
+  background-size: 100%;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  height: 99%;
+  width: 99%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #fd0054;
+  color: white;
+  text-align: center;
+}
+.DanishSwine:hover {
+  transition: transform 1s;
+  transform: scale(0.95);
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,100 @@
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.GridArea {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+      grid-template-areas: "SP NP" 
+ "IP DS";
+  grid-auto-columns: minmax(50%, auto);
+  grid-auto-rows: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SwedishPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: SP;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fcced9;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
+}
+
+.DanishSwine {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: DS;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fcced9;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
+}
+
+.NorwegianPig {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: NP;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fcced9;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
+}
+
+.IcelandicPig {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: IP;
+  height: 99%;
+  width: 99%;
+  border-radius: 7px;
+  background-color: #fcced9;
+  color: white;
+  text-align: center;
+  -webkit-box-shadow: 3px 2px 3px #888888;
+          box-shadow: 3px 2px 3px #888888;
+  border: solid 2px black;
+}
+
+.backButton {
+  float: right;
+}
+
+.product {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fd0054;
+  padding: 5%;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.buyButton {
+  width: 100%;
+}
+
+.pris {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */

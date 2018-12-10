@@ -1,0 +1,76 @@
+ul {
+  list-style-type: none;
+}
+
+li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+li {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  font-weight: bold;
+  max-width: 150px;
+  BORDER: 1px solid #fcced9;
+}
+
+.container {
+  font-size: 40px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "PL  Info";
+  grid-auto-columns: minmax(45%, auto);
+  -ms-grid-rows: 51%, 51%;
+      grid-template-rows: 51%, 51%;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.item1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: PL;
+  border: 2px solid #fd0054;
+  border-radius: 7px;
+  background-color: #fcced9;
+}
+
+.side {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Info;
+  max-width: 50%;
+  border-radius: 7px;
+  border: 2px solid #fd0054;
+  background-color: White;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ProductsH1 {
+  text-align: center;
+  font-size: 50%;
+  border-bottom: 1px dotted black;
+}
+
+#producth2 {
+  text-align: center;
+  font-size: 50%;
+  border-bottom: 1px dotted black;
+}
+
+.side {
+  float: right;
+}
+
+#sidetext {
+  font-size: 40%;
+}
+
+#ProductsList {
+  list-style-type: none;
+}
+/*# sourceMappingURL=Product.css.map */

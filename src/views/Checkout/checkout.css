@@ -1,0 +1,69 @@
+.checkout-top {
+  width: 100%;
+  height: 191px;
+}
+
+.main-box {
+  margin: auto;
+  width: 70%;
+}
+
+.cart {
+  width: 45%;
+  height: 100%;
+  border: 2px solid #c7c7c7;
+  border-radius: 12px;
+  padding: 1%;
+  margin: 5px auto;
+  float: left;
+}
+
+.subtotal {
+  font-weight: bolder;
+  border: 2px solid #2b2024;
+  border-radius: 12px;
+  width: 45%;
+  padding: 1%;
+  margin: 9px auto;
+  float: left;
+}
+
+.pris {
+  width: 15%;
+  float: right;
+}
+
+.shipping {
+  width: 45%;
+  float: right;
+  padding: 1%;
+  border: 2px solid #c7c7c7;
+  border-radius: 12px;
+  margin: 3px;
+}
+
+.shippingAdress {
+  float: left;
+}
+
+.pay {
+  border: 2px solid #c7c7c7;
+  border-radius: 12px;
+  width: 45%;
+  padding: 1%;
+  margin: 7px auto;
+  float: left;
+}
+
+.checkoutButton {
+  float: right;
+  background-color: #a80038;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+  font-weight: bolder;
+  color: #c7c7c7;
+  padding: 1%;
+}
+
+/*# sourceMappingURL=checkout.css.map */
